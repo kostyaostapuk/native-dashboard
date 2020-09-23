@@ -18,6 +18,26 @@ ul > li {
 	padding: 1rem;
 }
 
+#wrapper {
+	display: flex;
+}
+
+#wrapper #content-wrapper {
+	background-color: #f5f5f5;
+}
+
+#wrapper,
+#content-wrapper,
+#content {
+	flex: 1 0 auto;
+}
+
+.d-flex {
+	display: flex;
+}
+.flex-column {
+	flex-direction: column;
+}
 /* Typography */
 
 .text-center {
