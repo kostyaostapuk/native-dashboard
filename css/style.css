@@ -330,6 +330,9 @@ button:focus {
 .bg-white {
 	background-color: #fff;
 }
+.bg-light {
+	background-color: #f8f9fc;
+}
 
 /* Margins */
 .mb-1 {
