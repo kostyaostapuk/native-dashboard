@@ -303,8 +303,25 @@ button:focus {
 }
 
 /* Top-panel */
+
+.input-group {
+	display: flex;
+}
+.input-group__search {
+	font-size: 1rem;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.input-group__append > .btn {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
 .navbar {
-	height: 4.15rem;
+	display: flex;
+	height: 4rem;
+	padding: 0 2rem;
+	align-items: center;
 }
 .shadow {
 	box-shadow: 0 0.1rem 2rem 0 rgba(0, 0, 0, 0.15);
