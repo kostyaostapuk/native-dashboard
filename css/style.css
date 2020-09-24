@@ -18,6 +18,16 @@ ul > li {
 	padding: 1rem;
 }
 
+input {
+	border: 1px solid transparent;
+	border-radius: 0.35rem;
+	padding: 0.5rem;
+	color: grey;
+}
+input:focus {
+	outline: none;
+}
+
 #wrapper {
 	display: flex;
 }
