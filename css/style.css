@@ -67,6 +67,9 @@ button:focus {
 	border-color: #4e73df;
 }
 /* Typography */
+.text-gray {
+	color: #dddfeb;
+}
 
 .text-center {
 	text-align: center;
@@ -333,7 +336,6 @@ button:focus {
 .bg-light {
 	background-color: #f8f9fc;
 }
-
 /* Margins */
 .mb-1 {
 	margin-bottom: 1rem;
