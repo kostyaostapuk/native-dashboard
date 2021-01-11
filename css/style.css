@@ -34,11 +34,11 @@ button:focus {
 
 #wrapper #content-wrapper {
 	background-color: #f5f5f5;
+	width: 100%;
+	overflow-x: hidden;
 }
 
-#wrapper,
-#content-wrapper,
-#content {
+#wrapper #content-wrapper #content {
 	flex: 1 0 auto;
 }
 
@@ -70,7 +70,6 @@ button:focus {
 .text-center {
 	text-align: center;
 }
-
 .text-gray-500 {
 	color: #b7b9cc;
 	font-weight: 500;
@@ -79,7 +78,24 @@ button:focus {
 	color: #858796;
 	font-weight: 600;
 }
-
+.text-white-300 {
+	color: white;
+	font-weight: 800;
+}
+.text-white-800 {
+	color: white;
+	font-weight: 800;
+}
+.text-white-700 {
+	color: white;
+	font-weight: 800;
+}
+.text-s {
+	font-size: 0.8rem;
+}
+.text-m {
+	font-size: 1.6rem;
+}
 .text-gray-800 {
 	color: #5a5c69;
 	font-weight: 800;
@@ -346,8 +362,8 @@ button:focus {
 	content: attr(data-notifications);
 	background-color: #e74a3b;
 	color: #fff;
-	font-size: 0.2rem;
-	padding: 0.1rem;
+	font-size: 0.6rem;
+	padding: 0.1rem 0.15rem;
 	border-radius: 0.25rem;
 	position: absolute;
 	top: -0.25rem;
@@ -392,4 +408,57 @@ button:focus {
 
 .text-center {
 	text-align: center;
+}
+
+.container-fluid {
+	width: 100%;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.row {
+	display: flex;
+	align-items: center;
+}
+.col-3 {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	width: 25%;
+}
+.col {
+	flex-basis: 0;
+	flex-grow: 1;
+}
+.col-auto {
+	flex: 0 0 auto;
+}
+.card {
+	border-radius: 5px;
+	background-color: #fff;
+	width: 100%;
+}
+.card__body {
+	flex: 1 1 auto;
+	padding: 1.5rem;
+}
+.card__title {
+	text-transform: uppercase;
+	color: #fff;
+}
+.primary {
+	background-image: linear-gradient(90deg, #ad59ff, #7659ff);
+	box-shadow: 0 3px 0 0 #7e4ddb, 0 2px 8px 0 #9259ff, 0 4px 10px 0 rgba(33, 7, 77, 0.5);
+}
+.success {
+	background-image: linear-gradient(90deg, #00d9bf, #00d977);
+	box-shadow: 0 3px 0 0 #00bb85, 0 2px 8px 0 #00d99b, 0 4px 10px 0 rgba(33, 7, 77, 0.5);
+}
+.warning {
+	background-image: linear-gradient(90deg, #fc0, #ffa100);
+	box-shadow: 0 3px 0 0 #db9d00, 0 2px 8px 0 #ffb600, 0 4px 10px 0 rgba(33, 7, 77, 0.5);
+}
+.info {
+	background-image: linear-gradient(90deg, #00b3ff, #08f);
+	box-shadow: 0 3px 0 0 #0087db, 0 2px 8px 0 #009dff, 0 4px 10px 0 rgba(33, 7, 77, 0.5);
 }
