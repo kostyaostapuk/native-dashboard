@@ -425,9 +425,10 @@ button:focus {
 	align-items: center;
 }
 .col-3 {
-	margin-left: 0.5rem;
-	margin-right: 0.5rem;
 	width: 25%;
+}
+.col-3 {
+	padding: 0 0.5rem;
 }
 .col {
 	flex-basis: 0;
