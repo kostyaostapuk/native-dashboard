@@ -443,7 +443,6 @@ button:focus {
 .card {
 	border-radius: 5px;
 	background-color: #fff;
-	width: 100%;
 }
 .card__body {
 	flex: 1 1 auto;
