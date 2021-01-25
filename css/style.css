@@ -65,8 +65,8 @@ button:focus {
 
 .btn-primary {
 	color: white;
-	background-color: #4e73df;
-	border-color: #4e73df;
+	background-color: #6C63FF;
+	border-color: #6C63FF;
 }
 /* Typography */
 .text-gray {
@@ -273,7 +273,7 @@ button:focus {
 
 /* Sidebar */
 .sidebar {
-	background-color: #4e73df;
+	background-color: #6C63FF;
 	min-height: 100vh;
 }
 .sidebar__brand {
