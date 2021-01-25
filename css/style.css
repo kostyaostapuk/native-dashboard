@@ -446,7 +446,15 @@ button:focus {
 }
 .card__body {
 	flex: 1 1 auto;
+}
+.card__body_s{
 	padding: 1.5rem;
+}
+.card__body_m{
+	padding: 2rem;
+}
+.card__body_l{
+	padding: 3rem;
 }
 .card__title {
 	text-transform: uppercase;
