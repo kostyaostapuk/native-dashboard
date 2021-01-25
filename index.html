@@ -13,6 +13,7 @@
 
 	<!-- Styles -->
 	<link href="css/style.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/chart-flex.css">
 
 	<body>
 		<div id="wrapper">
@@ -90,6 +91,7 @@
 					<div class="container-fluid">
 						<h2 class="text-gray-600">Dashboard</h2>
 						<!--Cards-->
+						<div class="row mb-1">
 							<div class="col-3">
 								<!--Card Success-->
 								<div class="card success">
@@ -159,6 +161,45 @@
 							</div>
 						</div>
 						<!--End of Cards-->
+
+						<!--Chart Flex -->
+						<div class="row">
+							<div class="col-6">
+								<div class="card">
+									<div class="card__body card__body_m">
+										<div class="chart-flex">
+											<ul class="axis-y">
+												<li><span>9000$</span></li>
+												<li><span>8000$</span></li>
+												<li><span>7000$</span></li>
+												<li><span>6000$</span></li>
+												<li><span>5000$</span></li>
+												<li><span>4000$</span></li>
+												<li><span>3000$</span></li>
+												<li><span>2000$</span></li>
+												<li><span>1000$</span></li>
+											</ul>
+									
+											<ul class="axis-x">
+												<li data-percent='5'><span>Jan</span></li>
+												<li data-percent='30'> <span>Feb</span></li>
+												<li data-percent='50'><span>Mar</span></li>
+												<li data-percent='25'><span>Apr</span></li>
+												<li data-percent='80'><span>May</span></li>
+												<li data-percent='100'><span>Jun</span></li>
+												<li data-percent='20'><span>Jul</span></li>
+												<li data-percent='10'><span>Aug</span></li>
+												<li data-percent='60'><span>Sep</span></li>
+												<li data-percent='90'><span>Oct</span></li>
+												<li data-percent='20'><span>Nov</span></li>
+												<li data-percent='45'><span>Dec</span></li>
+											</ul>    
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--End of Chart Flex-->
 					</div>
 					<!--End of Page Content-->
 				</div>
@@ -166,5 +207,9 @@
 			</div>
 			<!-- End of Content Wrapper-->
 		</div>
+		<!--Scripts-->
+
+		<!--Chart Flex-->
+		<script src="js/chart.js"></script>
 	</body>
 </html>

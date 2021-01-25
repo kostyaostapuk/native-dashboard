@@ -1,0 +1,43 @@
+.chart-flex{
+    display: flex;
+    height: 430px;
+    color:#858796;
+    font-size: 12px;
+    width: 100%;
+    position: relative;
+}
+.axis-y{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+}
+.axis-x{
+    display: flex;
+    flex: 1 1 auto;
+    position: relative;
+    align-items: flex-end;
+    border-bottom: 1px solid #dddfeb;
+}
+.axis-x > li{
+    margin: 5px 5px 0 5px;
+    border-radius: 5px;
+    background-color: #6C63FF;
+    flex: 1 1 auto;
+    transition: 1s;
+    justify-content: center;
+}
+.axis-y > li{
+    flex: 1 1 auto;
+}
+.axis-y > li::after{
+    content: '';
+    height: 1px;
+    position: absolute;
+    border-top: 1px dashed #dddfeb;
+    width: 100%;
+    left: 0;
+}
+.axis-x > li > span {
+    position: absolute;
+    bottom: -20px;
+}
