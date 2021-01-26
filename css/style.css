@@ -16,6 +16,9 @@ ul {
 	padding: 0;
 	margin: 0;
 }
+ul > li{
+    list-style: none;
+}
 
 input {
 	border: 1px solid transparent;
@@ -62,8 +65,8 @@ button:focus {
 
 .btn-primary {
 	color: white;
-	background-color: #4e73df;
-	border-color: #4e73df;
+	background-color: #6C63FF;
+	border-color: #6C63FF;
 }
 /* Typography */
 .text-gray {
@@ -270,7 +273,7 @@ button:focus {
 
 /* Sidebar */
 .sidebar {
-	background-color: #4e73df;
+	background-color: #6C63FF;
 	min-height: 100vh;
 }
 .sidebar__brand {
@@ -408,11 +411,6 @@ button:focus {
 		width: 14rem;
 	}
 }
-
-.text-center {
-	text-align: center;
-}
-
 .container-fluid {
 	width: 100%;
 	padding-left: 1.5rem;
@@ -425,9 +423,13 @@ button:focus {
 	align-items: center;
 }
 .col-3 {
-	margin-left: 0.5rem;
-	margin-right: 0.5rem;
 	width: 25%;
+}
+.col-6{
+	width: 50%;
+}
+.col-3, .col-6{
+	padding: 0 0.5rem;
 }
 .col {
 	flex-basis: 0;
@@ -439,11 +441,18 @@ button:focus {
 .card {
 	border-radius: 5px;
 	background-color: #fff;
-	width: 100%;
 }
 .card__body {
 	flex: 1 1 auto;
+}
+.card__body_s{
 	padding: 1.5rem;
+}
+.card__body_m{
+	padding: 2rem;
+}
+.card__body_l{
+	padding: 3rem;
 }
 .card__title {
 	text-transform: uppercase;
