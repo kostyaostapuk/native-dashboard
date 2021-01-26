@@ -111,7 +111,10 @@ button:focus {
 .small {
 	font-size: 80%;
 }
-
+.text-primary-600{
+	color: #6C63FF;
+	font-weight: 600;
+}
 /* Error */
 
 .error {
@@ -459,6 +462,10 @@ button:focus {
 .card__title {
 	text-transform: uppercase;
 	color: #fff;
+}
+.card__header{
+	padding: 0.5rem 1rem;
+	border-bottom: 1px solid #6C63FF;
 }
 .primary {
 	background-image: linear-gradient(90deg, #ad59ff, #7659ff);
