@@ -453,6 +453,9 @@ button:focus {
 .card__body {
 	flex: 1 1 auto;
 }
+.card__body_xs{
+	padding: 1rem;
+}
 .card__body_s{
 	padding: 1.5rem;
 }
