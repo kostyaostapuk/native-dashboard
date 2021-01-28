@@ -496,6 +496,7 @@ button:focus {
 /* Table */
 table{
 	width: 100%;
+	height: 220px;
 }
 thead{
 	color: #858796;
