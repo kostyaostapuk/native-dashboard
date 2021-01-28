@@ -439,7 +439,7 @@ button:focus {
 .col-10{
 	width: 83.333%;
 }
-.col-3, .col-6, .col-8, col-10{
+.col-3, .col-6, .col-8, .col-10{
 	padding: 0 0.5rem;
 }
 .col {
