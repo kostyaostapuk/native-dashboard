@@ -36,6 +36,13 @@
 				<div class="sidebar__heading">Addons</div>
 				<li class="nav__item">
 					<a class="nav__link" href="#"><i class="fas fa-fw fa-folder"></i>Pages</a>
+					<div class="collapse">
+						<div class="bg-white rounded text-center mt-1 p-1">
+							<div class="collapse-item">
+								<a class="text-gray-dark" href="./404.html">404 Page</a>
+							</div>
+						</div>
+					</div>
 				</li>
 				<li class="nav__item">
 					<a class="nav__link" href="charts.html"><i class="fas fa-fw fa-chart-area"></i>Charts</a>
@@ -76,7 +83,7 @@
 							</li>
 							<li class="nav__separator"></li>
 							<li class="nav__item">
-								<span class="text-gray-600 small">Kostya Ostapuk</span>
+								<span class="text-gray-dark fw-600 small">Kostya Ostapuk</span>
 							</li>
 							<li class="nav__item">
 								<img
@@ -91,7 +98,7 @@
 					<div class="container-fluid">
 						<!--Title Dashboard-->
 						<div class="row mb-1">
-							<div class="col-6"><h2 class="text-gray-600">Dashboard</h2></div>
+							<div class="col-6"><h2 class="text-gray-dark fw-600">Dashboard</h2></div>
 						</div>
 						<!--End of Title Dashboard-->
 
@@ -103,11 +110,11 @@
 									<div class="card__body card__body_s">
 										<div class="row">
 											<div class="col">
-												<div class="card__title text-white-700 text-s">Incomes</div>
-												<div class="card__subtitle text-white-800 text-m">$230.000</div>
+												<div class="card__title text-white fw-700 text-s">Incomes</div>
+												<div class="card__subtitle text-white fw-800 text-m">$230.000</div>
 											</div>
 											<div class="col-auto">
-												<i class="fas fa-arrow-up fa-3x text-white-300"></i>
+												<i class="fas fa-arrow-up fa-3x text-white"></i>
 											</div>
 										</div>
 									</div>
@@ -120,11 +127,11 @@
 									<div class="card__body card__body_s">
 										<div class="row">
 											<div class="col">
-												<div class="card__title text-white-700 text-s">Expenses</div>
-												<div class="card__subtitle text-white-800 text-m">$15.200</div>
+												<div class="card__title text-white fw-700 text-s">Expenses</div>
+												<div class="card__subtitle text-white fw-800 text-m">$15.200</div>
 											</div>
 											<div class="col-auto">
-												<i class="fa fa-arrow-down fa-3x text-white-300"></i>
+												<i class="fa fa-arrow-down fa-3x text-white fw-300"></i>
 											</div>
 										</div>
 									</div>
@@ -137,10 +144,10 @@
 									<div class="card__body card__body_s">
 										<div class="row">
 											<div class="col">
-												<div class="card__title text-white-700 text-s">Dividends</div>
-												<div class="card__subtitle text-white-800 text-m">$5.000</div></div>
+												<div class="card__title text-white fw-700 text-s">Dividends</div>
+												<div class="card__subtitle text-white fw-800 text-m">$5.000</div></div>
 											<div class="col-auto">
-												<i class="fa fa-fire-alt fa-3x text-white-300"></i>
+												<i class="fa fa-fire-alt fa-3x text-white fw-300"></i>
 											</div>
 										</div>
 									</div>
@@ -153,11 +160,11 @@
 									<div class="card__body card__body_s">
 										<div class="row">
 											<div class="col">
-												<div class="card__title text-white-700 text-s">Cash</div>
-												<div class="card__subtitle text-white-800 text-m">$3.100</div>
+												<div class="card__title text-white fw-700 text-s">Cash</div>
+												<div class="card__subtitle text-white fw-800 text-m">$3.100</div>
 											</div>
 											<div class="col-auto">
-												<i class="fa fa-wallet fa-3x text-white-300"></i>
+												<i class="fa fa-wallet fa-3x text-white fw-300"></i>
 											</div>
 										</div>
 									</div>
@@ -171,9 +178,9 @@
 						<div class="row mb-1">
 							<div class="col-6">
 								<div class="card">
-									<div class="card__header"><h3 class="text-primary-600">Chart Flex</h3></div>
+									<div class="card__header"><h3 class="text-primary fw-600">Chart Flex</h3></div>
 									<div class="card__body card__body_m">
-										<div class="chart-flex">
+										<div class="chart-flex text-gray-dark">
 											<ul class="axis-y">
 												<li><span>9000$</span></li>
 												<li><span>8000$</span></li>
@@ -210,10 +217,10 @@
 						<div class="row">
 							<div class="col-8">
 								<div class="card">
-									<div class="card__header"><h3 class="text-primary-600">Transactions history</h3></div>
+									<div class="card__header"><h3 class="text-primary fw-600">Transactions history</h3></div>
 									<div class="card__body card__body_xs">
 										<table>
-											<thead>
+											<thead class="text-gray-dark fw-600">
 												<th>#</th>
 												<th>datetime</th>
 												<th>name</th>
@@ -224,7 +231,7 @@
 												<th>country</th>
 												<th>status</th>
 											</thead>
-											<tbody>
+											<tbody class="text-dark fw-500">
 												<tr>
 													<td>1</td>
 													<td>Dec 31 2019 08:20:51</td>
@@ -289,26 +296,26 @@
 							<!--Income Status-->
 							<div class="col-4">
 								<div class="card">
-									<div class="card__header"><h3 class="text-primary-600">Income history</h3></div>
+									<div class="card__header"><h3 class="text-primary fw-600">Income history</h3></div>
 									<div class="card__body card__body_xs">
-										<ul class="list text-gray-500">	
+										<ul class="list text-gray fw-500">	
 											<li class="list-item">
 												<img class="list-item__img" src="./svg/mastercard.svg">
-												<div class="list-item__title text-gray-500">Master Card</div>
+												<div class="list-item__title text-gray fw-500">Master Card</div>
 												<div class="list-item__subtitle">Payment Received</div>
 												<div class="list-item__value text-active">+5000.00$</div>
 											</li>
 
 											<li class="list-item">
 												<img class="list-item__img" src="./svg/visa.svg">
-												<div class="list-item__title text-gray-500">Visa</div>
+												<div class="list-item__title text-gray fw-500">Visa</div>
 												<div class="list-item__subtitle">Account Deposit</div>
 												<div class="list-item__value text-reject">+2000.00€</div>
 											</li>
 
 											<li class="list-item">
 												<img class="list-item__img" src="./svg/paypal.svg">
-												<div class="list-item__title text-gray-500">Paypal</div>
+												<div class="list-item__title text-gray fw-500">Paypal</div>
 												<div class="list-item__subtitle">Payment Waiting</div>
 												<div class="list-item__value text-waiting">+10000.00$</div>
 											</li>
